@@ -8,12 +8,12 @@ def func (l,k):
     res2=0
     for i in l:
         if i > 0:
-            res1+=i
+            res1+=1
         else:
             res2+=i
     for i in k:
         if i > 0:
-            res1+=i
+            res1+=1
         else:
             res2+=i
     return [res1]+[res2]
